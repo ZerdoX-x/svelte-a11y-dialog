@@ -1,0 +1,46 @@
+{
+	"name": "svelte-a11y-dialog",
+	"version": "0.0.1-beta.0",
+	"description": "Svelte component for a11y-dialog",
+	"keywords": [
+		"svelte",
+		"modal",
+		"dialog",
+		"accessibility",
+		"a11y",
+		"component"
+	],
+	"homepage": "https://github.com/ZerdoX-x/svelte-a11y-dialog#readme",
+	"bugs": {
+		"url": "https://github.com/ZerdoX-x/svelte-a11y-dialog/issues"
+	},
+	"repository": "github:ZerdoX-x/svelte-a11y-dialog",
+	"license": "MIT",
+	"author": {
+		"name": "Vladimir Porotnikov",
+		"email": "zerdox.cool4@gmail.com"
+	},
+	"exports": {
+		".": "./dist/index.mjs",
+		"./package.json": "./package.json"
+	},
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"files": [
+		"src",
+		"dist"
+	],
+	"scripts": {
+		"build": "rollup --config"
+	},
+	"dependencies": {
+		"a11y-dialog": "^7.3.0"
+	},
+	"devDependencies": {
+		"@rollup/plugin-node-resolve": "^13.0.4",
+		"rollup": "^2.56.3",
+		"rollup-plugin-svelte": "^7.1.0",
+		"svelte": "^3.42.5"
+	},
+	"svelte": "./src/A11yDialog.svelte"
+}
